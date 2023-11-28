@@ -13,16 +13,16 @@
 }
 
 main {
-  background: linear-gradient(#5f2c82, #49a09d);
+  background-color: #281236;
   width: 100vw;
   height: 100vh;
 }
 
 section#login {
   background-color: white;
-  border-radius: 10px;
-  width: 500px;
-  height: 200px;
+  border-radius: 15px;
+  width: 80vw;
+  height: 25vh;
   
   position: absolute;
   top: 50%;
@@ -40,5 +40,22 @@ div > p {
   padding-bottom: 5px;
 }
 
+i {
+  background-color:#281236;
+  color: white;
+  height: 35px;
 
+}
 
+.caixat {
+  border: #5f2c82 2px solid;
+  border-radius: 5px;
+  width: 373px;
+  height: 35px;
+  
+}
+
+#iemail, #isenha {
+  width: 340px;
+  height: 25px;
+}
