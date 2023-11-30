@@ -18,11 +18,22 @@ main {
   height: 100vh;
 }
 
+div#imagem {
+  background-image: url(/imagens/pexels-damir-16335483.jpg);
+  background-position: center center;
+  background-size: cover;
+
+  width: 50vw;
+  height: 150px;
+  border-radius: 15px 15px 0px 0px;
+}
+
 section#login {
+  display: block;
   background-color: white;
   border-radius: 15px;
-  width: 80vw;
-  height: 25vh;
+  width: 50vw;
+  height: 400px;
   
   position: absolute;
   top: 50%;
@@ -37,25 +48,13 @@ div > h1 {
 }
 
 div > p {
-  padding-bottom: 5px;
-}
-
-i {
-  background-color:#281236;
-  color: white;
-  height: 35px;
+  padding-bottom: 10px;
 
 }
 
 .caixat {
-  border: #5f2c82 2px solid;
+  color: white;
+  background-color: #281236;
   border-radius: 5px;
-  width: 373px;
-  height: 35px;
-  
-}
-
-#iemail, #isenha {
-  width: 340px;
-  height: 25px;
+  width: 100%;
 }
