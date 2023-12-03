@@ -30,7 +30,7 @@ div#imagem {
 
 section#login {
   display: block;
-  background-color: white;
+  background-color: #281236;
   border-radius: 15px;
   width: 50vw;
   height: 400px;
@@ -39,6 +39,10 @@ section#login {
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
+}
+
+div#formulario{
+  background-color: white;
 }
 
 div > h1 {
