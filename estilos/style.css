@@ -24,7 +24,7 @@ div#imagem {
   background-size: cover;
 
   width: 50vw;
-  height: 150px;
+  height: 170px;
   border-radius: 15px 15px 0px 0px;
 }
 
@@ -32,7 +32,7 @@ section#login {
   display: block;
   background-color: #281236;
   border-radius: 15px;
-  width: 50vw;
+  width: 50%;
   height: 500px;
 
   position: absolute;
