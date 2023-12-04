@@ -80,6 +80,14 @@ div#formulario {
   outline: 0;
 }
 
+#iemail::placeholder {
+  color: rgba(255, 255, 255, 0.849)
+}
+
+#iemail:hover::placeholder {
+  color: rgb(60, 60, 61);
+}
+
 #isenha {
   width: 100%;
   height: 20px;
@@ -90,6 +98,7 @@ div#formulario {
   background-color: rgba(131, 226, 223, 0.741);
   border:  #281236;
   border-radius: 4px;
+
 }
 
 #isenha:hover {
@@ -99,6 +108,14 @@ div#formulario {
 
 #isenha:focus-visible {
   outline: 0;
+}
+
+#isenha::placeholder {
+  color: rgba(255, 255, 255, 0.849);
+}
+
+#isenha:hover::placeholder {
+  color: rgb(60, 60, 61);
 }
 
 div>h1 {
@@ -128,6 +145,7 @@ div>p {
 
 #entrar:hover {
   background-color: #264d4b;
+  cursor: pointer;
 }
 
 #esenha {
@@ -143,4 +161,5 @@ div>p {
 
 #esenha:hover {
   background-color: #55b6b3;
+  cursor: pointer;
 }
